@@ -1,41 +1,72 @@
-$bg-color: #ffffff
-$text-color: #080808
+$bg-color: #6a7980
+$text-color: #f8f8f8
+$text-font: 'IBM Plex Sans', sans-serif
+
+html
+    height: 100%
 
 body
+    margin: 0em
+    height: 100%
     background-color: $bg-color
-    font-family: "Roboto", sans-serif
     color: $text-color
+
+    font-family: $text-font
+
     display: flex
+    justify-content: center
+    align-items: center
 
-main
-    margin: auto
-
-h1
-    margin: 0px
+input
+    background: transparent
+    border: none
+    font-family: $text-font
+    color: $text-color
 
 a
     color: $text-color
 
-ul
-    padding: 0px
-    margin: 0px
-
 li
     list-style-type: none
+
+hr
+    display: block
+    height: 1px
+    border: 0
+    border-top: 1px solid $text-color
+    margin: 1em 2em
+    padding: 0
+
+.link-title
+    margin: 0em
+    font-size: x-large
+
+.link-list
+    padding: 0em
+    margin: 0em
+    font-size: xx-large
+
+.list-item
+    background-color: transparent
+    transition: background .5s ease-in-out
+.list-item:hover
+    background-color: #708ca2
+
+.category
+    margin: 0em 2em
 
 .categories-container
     display: flex
     justify-content: space-between
-
-.category
-    padding: 0px 20px
-    max-width: 100px
+    // margin: auto
 
 #form-search
-    width: auto
-    display: block
+    margin: 1em 2em
 
-#form-search
-    width: auto
-    display: block
-    box-sizing: border-box
+#sidebar
+    height: auto
+    width: 12em
+    margin: 0em 1em
+
+#links
+    margin: 0em 1em

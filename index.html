@@ -3,40 +3,42 @@
 
 <head>
     <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <main>
-        <form id="form-search" action="https://www.google.com/search" method="get">
+    <main id="links">
+        <form id="form-search" target="_blank" action="https://duckduckgo.com/" method="get" autocomplete="off">
             <input id="search" placeholder="Search" type="text" name="q" autofocus="">
         </form>
+        <hr />
         <nav class="categories-container">
             <div class="category">
-                <h1>Social</h1>
+                <h1 class="link-title">Social</h1>
                 <ul class="link-list">
-                    <li><a target="_blank" href="https://facebook.com/">Facebook</a></li>
-                    <li><a target="_blank" href="https://twitter.com/">Twitter</a></li>
-                    <li><a target="_blank" href="https://youtube.com/">YouTube</a></li>
-                    <li><a target="_blank" href="https://reddit.com/">Reddit</a></li>
+                    <li><a class="list-item" target="_blank" href="https://facebook.com/">Facebook</a></li>
+                    <li><a class="list-item" target="_blank" href="https://twitter.com/">Twitter</a></li>
+                    <li><a class="list-item" target="_blank" href="https://youtube.com/">YouTube</a></li>
+                    <li><a class="list-item" target="_blank" href="https://reddit.com/">Reddit</a></li>
                 </ul>
             </div>
             <div class="category">
-                <h1>Work</h1>
+                <h1 class="link-title">Work</h1>
                 <ul class="link-list">
-                    <li><a href="http://notion.so/">Notion</a></li>
-                    <li><a href="https://gmail.com/">Gmail</a></li>
-                    <li><a href="https://github.com/">GitHub</a></li>
+                    <li><a class="list-item" target="_blank" href="http://notion.so/">Notion</a></li>
+                    <li><a class="list-item" target="_blank" href="https://gmail.com/">Gmail</a></li>
+                    <li><a class="list-item" target="_blank" href="https://github.com/">GitHub</a></li>
                 </ul>
             </div>
             <div class="category">
-                <h1>Misc</h1>
+                <h1 class="link-title">Misc</h1>
                 <ul class="link-list">
-                    <li><a href="https://libgen.lc/">LibGen</a></li>
-                    <li><a href="https://sci-hub.now.sh/">SciHub</a></li>
+                    <li><a class="list-item" target="_blank" href="https://libgen.lc/">LibGen</a></li>
+                    <li><a class="list-item" target="_blank" href="https://sci-hub.now.sh/">SciHub</a></li>
                 </ul>
             </div>
         </nav>
     </main>
+    <img id="sidebar" src="sidebar.png">
 </body>
-
 </html>
