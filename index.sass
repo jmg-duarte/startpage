@@ -1,5 +1,5 @@
 $bg-color: #6a7980
-$text-color: #f8f8f8
+$text-color: #fbfbfb
 $text-font: 'IBM Plex Sans', sans-serif
 
 html
@@ -48,9 +48,14 @@ hr
 
 .list-item
     background-color: transparent
-    transition: background .5s ease-in-out
+    text-decoration-color: transparent
+    transition: background .175s ease-in-out
+    transition: text-decoration-color .175s ease-in-out
+
 .list-item:hover
     background-color: #708ca2
+    text-decoration-color: $text-color
+
 
 .category
     margin: 0em 2em
