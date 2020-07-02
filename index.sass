@@ -19,6 +19,7 @@ body
     align-items: center
 
 input
+    width: 100%
     background: transparent
     border: none
     font-family: $text-font
@@ -50,14 +51,12 @@ hr
 .list-item
     background-color: transparent
     text-decoration-color: transparent
-    transition: background $hover-animation-time ease-in-out
-    transition: text-decoration-color $hover-animation-time ease-in-out
+    transition: background $hover-animation-time ease-in-out, text-decoration-color $hover-animation-time ease-in-out
 
 .list-item:hover
     color: $bg-color
     background-color: $text-color
     text-decoration-color: $bg-color
-
 
 .category
     margin: 0em 2em
