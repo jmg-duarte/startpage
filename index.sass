@@ -1,6 +1,7 @@
 $bg-color: #6a7980
 $text-color: #fbfbfb
 $text-font: 'IBM Plex Sans', sans-serif
+$hover-animation-time: 0.5s
 
 html
     height: 100%
@@ -49,12 +50,13 @@ hr
 .list-item
     background-color: transparent
     text-decoration-color: transparent
-    transition: background .175s ease-in-out
-    transition: text-decoration-color .175s ease-in-out
+    transition: background $hover-animation-time ease-in-out
+    transition: text-decoration-color $hover-animation-time ease-in-out
 
 .list-item:hover
-    background-color: #708ca2
-    text-decoration-color: $text-color
+    color: $bg-color
+    background-color: $text-color
+    text-decoration-color: $bg-color
 
 
 .category

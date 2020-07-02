@@ -51,13 +51,14 @@ hr {
 .list-item {
   background-color: transparent;
   text-decoration-color: transparent;
-  transition: background 0.175s ease-in-out;
-  transition: text-decoration-color 0.175s ease-in-out;
+  transition: background 0.5s ease-in-out;
+  transition: text-decoration-color 0.5s ease-in-out;
 }
 
 .list-item:hover {
-  background-color: #708ca2;
-  text-decoration-color: #fbfbfb;
+  color: #6a7980;
+  background-color: #fbfbfb;
+  text-decoration-color: #6a7980;
 }
 
 .category {
