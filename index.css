@@ -21,6 +21,14 @@ input {
   color: #fbfbfb;
 }
 
+input:focus {
+  outline: 0;
+}
+
+input::placeholder {
+  color: #fbfbfb;
+}
+
 a {
   color: #fbfbfb;
 }
