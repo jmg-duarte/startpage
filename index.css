@@ -7,7 +7,7 @@ body {
   height: 100%;
   background-color: #6a7980;
   color: #fbfbfb;
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Inter", "IBM Plex Sans", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,7 +17,7 @@ input {
   width: 100%;
   background: transparent;
   border: none;
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Inter", "IBM Plex Sans", sans-serif;
   color: #fbfbfb;
 }
 
@@ -49,12 +49,14 @@ hr {
 .link-title {
   margin: 0em;
   font-size: x-large;
+  font-weight: 300;
 }
 
 .link-list {
   padding: 0em;
   margin: 0em;
   font-size: xx-large;
+  font-weight: 500;
 }
 
 .list-item {
