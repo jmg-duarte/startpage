@@ -7,7 +7,7 @@ body {
   height: 100%;
   background-color: #6a7980;
   color: #fbfbfb;
-  font-family: "Inter", "IBM Plex Sans", sans-serif;
+  font-family: "Inter", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,7 +17,7 @@ input {
   width: 100%;
   background: transparent;
   border: none;
-  font-family: "Inter", "IBM Plex Sans", sans-serif;
+  font-family: "Inter", sans-serif;
   color: #fbfbfb;
 }
 
@@ -75,9 +75,12 @@ hr {
   margin: 0em 2em;
 }
 
-.categories-container {
-  display: flex;
-  justify-content: space-between;
+.category-top-row {
+  margin-bottom: 3em;
+}
+
+.category-bottom-row {
+  margin-top: 3em;
 }
 
 #form-search {

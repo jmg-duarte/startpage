@@ -6,45 +6,67 @@
     <meta charset="UTF-8">
     <meta name="author" content="José Duarte">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
-    <main id="links">
+    <div class="container row">
+    <main class="col" id="links">
         <form id="form-search" target="_blank" action="https://duckduckgo.com/" method="get" autocomplete="off">
             <input id="search" placeholder="Search" type="text" name="q" autofocus="">
         </form>
         <hr />
-        <nav class="categories-container">
-            <div class="category">
-                <h1 class="link-title">Social</h1>
-                <ul class="link-list">
-                    <li><a class="list-item" target="_blank" href="https://facebook.com/">Facebook</a></li>
-                    <li><a class="list-item" target="_blank" href="https://twitter.com/">Twitter</a></li>
-                    <li><a class="list-item" target="_blank" href="https://youtube.com/">YouTube</a></li>
-                    <li><a class="list-item" target="_blank" href="https://reddit.com/">Reddit</a></li>
-                </ul>
+        <nav class="container">
+            <div class="row category-top-row">
+                <div class="category col">
+                    <h1 class="link-title">Chat</h1>
+                    <ul class="link-list">
+                        <li><a class="list-item" target="_blank" href="https://www.messenger.com/">Messenger</a></li>
+                        <li><a class="list-item" target="_blank" href="https://web.whatsapp.com/">WhatsApp</a></li>
+                    </ul>
+                </div>
+
+                <div class="category col">
+                    <h1 class="link-title">Work</h1>
+                    <ul class="link-list">
+                        <li><a class="list-item" target="_blank" href="http://notion.so/">Notion</a></li>
+                        <li><a class="list-item" target="_blank" href="https://gmail.com/">Gmail</a></li>
+                        <li><a class="list-item" target="_blank" href="https://github.com/">GitHub</a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="category">
-                <h1 class="link-title">Work</h1>
-                <ul class="link-list">
-                    <li><a class="list-item" target="_blank" href="http://notion.so/">Notion</a></li>
-                    <li><a class="list-item" target="_blank" href="https://gmail.com/">Gmail</a></li>
-                    <li><a class="list-item" target="_blank" href="https://github.com/">GitHub</a></li>
-                </ul>
-            </div>
-            <div class="category">
-                <h1 class="link-title">Misc</h1>
-                <ul class="link-list">
-                    <li><a class="list-item" target="_blank" href="https://libgen.lc/">LibGen</a></li>
-                    <li><a class="list-item" target="_blank" href="https://sci-hub.now.sh/">SciHub</a></li>
-                    <li><a class="list-item" target="_blank" href="https://lichess.org/">Lichess</a></li>
-                </ul>
+            <div class="row category-bottom-row">
+                <div class="category col">
+                    <h1 class="link-title">Social</h1>
+                    <ul class="link-list">
+                        <li><a class="list-item" target="_blank" href="https://facebook.com/">Facebook</a></li>
+                        <li><a class="list-item" target="_blank" href="https://twitter.com/">Twitter</a></li>
+                        <li><a class="list-item" target="_blank" href="https://youtube.com/">YouTube</a></li>
+                        <li><a class="list-item" target="_blank" href="https://reddit.com/">Reddit</a></li>
+                    </ul>
+                </div>
+
+                <div class="category col">
+                    <h1 class="link-title">Misc</h1>
+                    <ul class="link-list">
+                        <li><a class="list-item" target="_blank" href="https://libgen.lc/">LibGen</a></li>
+                        <li><a class="list-item" target="_blank" href="https://sci-hub.now.sh/">SciHub</a></li>
+                        <li><a class="list-item" target="_blank" href="https://www.semanticscholar.org/">Semantic</a>
+                        </li>
+                        <li><a class="list-item" target="_blank" href="https://lichess.org/">Lichess</a></li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </main>
-    <img id="sidebar" src="sidebar_compressed.jpg">
+    <img class="col-3" id="sidebar" src="sidebar_compressed.jpg">
+</div>
 </body>
 
 </html>

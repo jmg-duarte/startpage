@@ -2,6 +2,7 @@ $bg-color: #6a7980
 $text-color: #fbfbfb
 $text-font: 'Inter', sans-serif
 $hover-animation-time: 0.5s
+$row-middle-margin: 3em
 
 html
     height: 100%
@@ -13,7 +14,6 @@ body
     color: $text-color
 
     font-family: $text-font
-
 
     display: flex
     justify-content: center
@@ -51,7 +51,6 @@ hr
     font-size: x-large
     font-weight: 300
 
-
 .link-list
     padding: 0em
     margin: 0em
@@ -71,10 +70,11 @@ hr
 .category
     margin: 0em 2em
 
-.categories-container
-    display: flex
-    justify-content: space-between
-    // margin: auto
+.category-top-row
+    margin-bottom: $row-middle-margin
+
+.category-bottom-row
+    margin-top: $row-middle-margin
 
 #form-search
     margin: 1em 2em
