@@ -19,6 +19,7 @@ input {
   border: none;
   font-family: "Inter", sans-serif;
   color: #fbfbfb;
+  padding: 0 15px;
 }
 
 input:focus {
